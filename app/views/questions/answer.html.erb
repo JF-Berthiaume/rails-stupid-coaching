@@ -1,0 +1,12 @@
+<div class="coach-container">
+  <h1>Stupid Coaching</h1>
+
+  <div class="coach-container">
+    <strong>You ask for :</strong> <%= @question %>
+  </div>
+
+  <div class="coach-answer">
+    <strong>Coach answer :</strong> <%= @answer %>
+  </div>
+
+<%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
